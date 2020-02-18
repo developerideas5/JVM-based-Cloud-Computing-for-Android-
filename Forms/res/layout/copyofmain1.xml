@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="264dp"
+    android:layout_height="43dp"
+    android:layout_x="26dp"
+    android:layout_y="26dp"
+    android:text="Android APPLICATIONS"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+<Button
+    android:id="@+id/btn_back"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="36dp"
+    android:layout_y="382dp"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btn_exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="176dp"
+    android:layout_y="388dp"
+    android:text="Exit" />
+
+<Button
+    android:id="@+id/btn_LD"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="23dp"
+    android:layout_y="77dp"
+    android:text="LD" />
+
+<Button
+    android:id="@+id/btn_Calc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="160dp"
+    android:layout_y="80dp"
+    android:text="Calculator" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="84dp"
+    android:layout_y="180dp"
+    android:text="RunningApps" />
+
+</AbsoluteLayout>

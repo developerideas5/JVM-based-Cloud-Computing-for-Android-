@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent" >
+
+<EditText android:layout_width="150px" 
+    android:layout_height="wrap_content" 
+    android:textSize="18sp" 
+    android:password="true" 
+    android:id="@+id/txt_password" 
+    android:layout_x="128dip"
+     android:layout_y="192dip"
+        android:inputType="textPassword" >
+    
+</EditText>
+
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+     android:id="@+id/lbl_password" 
+     android:text="Password" 
+     android:layout_y="207dip" 
+     android:layout_x="50dip">
+    
+</TextView>
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_y="312dip" 
+    android:layout_x="50dip" 
+    android:id="@+id/lbl_result">
+    
+</TextView>
+
+<TextView
+    android:id="@+id/lbl_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="10dp"
+    android:layout_y="10dp"
+    android:text="New"
+    android:textSize="25sp"
+    android:typeface="sans" />
+
+<TextView
+    android:id="@+id/lbl_username"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="39dp"
+    android:layout_y="154dp"
+    android:text="User Name" />
+
+<EditText
+    android:id="@+id/txt_username"
+    android:layout_width="150px"
+    android:layout_height="wrap_content"
+    android:layout_x="132dp"
+    android:layout_y="133dp"
+    android:textSize="18sp" >
+
+</EditText>
+
+
+<Button
+    android:id="@+id/btn_register"
+    android:layout_width="96dp"
+    android:layout_height="wrap_content"
+    android:layout_x="200dp"
+    android:layout_y="395dp"
+    android:text="Register" />
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="88dp"
+    android:layout_height="wrap_content"
+    android:layout_x="138dp"
+    android:layout_y="28dp" >
+    
+    <requestFocus />
+</EditText>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="74dp"
+    android:layout_y="40dp"
+    android:text="Name" />
+
+
+<EditText
+    android:id="@+id/email"
+    android:layout_width="147dp"
+    android:layout_height="wrap_content"
+    android:layout_x="138dp"
+    android:layout_y="79dp" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="72dp"
+    android:layout_y="95dp"
+    android:text="Email" />
+
+<TextView
+    android:id="@+id/textView3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="5dp"
+    android:layout_y="260dp"
+    android:text="Confirm Password" 
+    />
+
+
+<EditText
+    
+    android:layout_width="134dp"
+    android:layout_height="wrap_content"
+    android:textSize="18sp" 
+    android:password="true" 
+    android:id="@+id/txt_password1" 
+    android:layout_x="130dp"
+    android:layout_y="255dp"
+       android:inputType="textPassword"  />
+
+<Button
+    android:id="@+id/btn_exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="28dp"
+    android:layout_y="393dp"
+    android:text="Cancel" />
+
+</AbsoluteLayout>

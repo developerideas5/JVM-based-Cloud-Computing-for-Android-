@@ -1,0 +1,1 @@
+create table UserPurchasedList(User varchar(20)primary key,app varchar(20)unique,isExpired varchar(20),latestPurchasedDate date,Costpaid integer(20));

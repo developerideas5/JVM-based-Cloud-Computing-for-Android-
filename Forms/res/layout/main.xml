@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+>
+<EditText android:layout_width="150px" 
+    android:layout_height="wrap_content" 
+    android:textSize="18sp" 
+    android:id="@+id/txt_username"
+     android:layout_y="132dip"
+      android:layout_x="128dip">
+    
+</EditText>
+
+<EditText android:layout_width="150px" 
+    android:layout_height="wrap_content" 
+    android:textSize="18sp" 
+    android:password="true" 
+    android:id="@+id/txt_password" 
+    android:layout_x="128dip"
+     android:layout_y="192dip">
+    
+</EditText>
+
+<Button
+    android:id="@+id/btn_login"
+    android:layout_width="84dp"
+    android:layout_height="wrap_content"
+    android:layout_x="178dip"
+    android:layout_y="252dip"
+    android:text="Login" >
+</Button>
+
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+     android:id="@+id/lbl_username"
+      android:text="User Name"
+       android:layout_x="37dip" 
+       android:layout_y="150dip">
+    
+</TextView>
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+     android:id="@+id/lbl_password" 
+     android:text="Password" 
+     android:layout_y="207dip" 
+     android:layout_x="50dip">
+    
+</TextView>
+
+<TextView
+    android:id="@+id/lbl_top"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="29dip"
+    android:layout_y="94dip"
+    android:text="Login"
+    android:textSize="25sp"
+    android:typeface="sans" >
+    
+</TextView>
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:layout_y="312dip" 
+    android:layout_x="50dip" 
+    android:id="@+id/lbl_result">
+    
+</TextView>
+
+<Button
+    android:id="@+id/btn_new"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="24dp"
+    android:layout_y="253dp"
+    android:text="NEW" />
+
+<Button
+    android:id="@+id/btn_exit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="100dp"
+    android:layout_y="362dp"
+    android:text="exit" />
+
+</AbsoluteLayout>

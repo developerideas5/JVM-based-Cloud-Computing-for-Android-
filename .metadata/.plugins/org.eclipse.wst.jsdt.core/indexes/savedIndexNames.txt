@@ -1,0 +1,3 @@
+INDEX VERSION 1.3+C:\Users\Daffidols\Documents\jbcc\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2209088790.index
+3189362217.index
